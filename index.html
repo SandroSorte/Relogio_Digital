@@ -12,23 +12,29 @@
         integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
         crossorigin="anonymous"></script>
     <link rel="stylesheet" href="estilo.css">
-    
+
 </head>
 
 <body>
     <div class="container">
         <div class="row text-center">
-            <div class="col-md-4 offset-md-4 p-2 shadow-lg border border-2 rounded-5 bg-warning">
-                <div class="timer m-1 fs-1">00:00:00</div>
-                <div class="tempo mb-3 fs-5">Dom 00/00/0000</div>
-                <div class="mb-2">
-                    <button class="btn btn-primary w-25">crono</button>
-                    <button class="btn btn-primary w-25">crono</button>
+            <div class="col-md-4 mt-5 offset-md-4 shadow-lg border border-2 rounded-5">
+                <div class="tempo mt-3">Dom 00/00/0000</div>
+                <div class="timer mt-3 mb-4 fs-1">00:00:00</div>
+                <div class="mb-3">
+                    <button id="cronoshow" onclick="showcrono()" class="btn btn-primary w-50">crono</button>
+                </div>
+                <div class="crono mt-3 mb-4 fs-1">10:25:48</div>
+                <div class="mb-3">
+                    <button id="btnstart" onclick="start()" class="btn btn-primary">Iniciar</button>
+                    <button id="btnpause" onclick="pause()" class="btn btn-primary">Pausar</button>
+                    <button id="btnstop" onclick="stop()" class="btn btn-primary">Parar</button>
                 </div>
             </div>
         </div>
     </div>
     <script src="relogio.js"></script>
+    <script src="cronometro.js"></script>
 
 </body>
 
