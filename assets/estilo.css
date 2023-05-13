@@ -1,0 +1,15 @@
+@media(max-width:575px){
+    body{
+        background-color: black;
+    }
+    .row{
+        margin-top: 40%;
+    }
+}
+
+@media(min-width:576px){
+    body{
+        background-image: url('pexels-photo-2378959.jpeg');
+        background-size: cover;
+}
+}
