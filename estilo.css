@@ -1,5 +1,13 @@
-@media (max-width: 575.98px){
+@media(max-width:575px){
     body{
-        background-color: aqua;
+        background-color: gray;
     }
+   .row{
+    margin-top: 40%;
+    border-radius: none;
+   }
+   #col{
+    border:none;
+    border-radius: none;
+   }
 }

@@ -1,8 +1,7 @@
 let horario = document.querySelector(".timer")
 let agora = document.querySelector(".tempo")
 let cronoshow = document.querySelector('#cronoshow')
-let cronometro = document.querySelector('.crono')
-let cronobtn = document.querySelector('.btn-group')
+
 
 
 const relogio = () => {
@@ -49,16 +48,7 @@ const calendario = () => {
         case 7:
             semana = 'Sab'
     }
-
     agora.textContent = semana + " " + dia + "/" + mes + "/" + ano
-
 }
-
-function showcrono(){
-horario.inner = cronometro
-}
-
-
-
 relogio()
-// calendario()
+calendario()
