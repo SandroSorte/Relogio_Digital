@@ -33,19 +33,19 @@ const calendario = () => {
         case 1:
             semana = 'Seg'
             break
-        case 3:
+        case 2:
             semana = 'Ter'
             break
-        case 4:
+        case 3:
             semana = 'Qua'
             break
-        case 5:
+        case 4:
             semana = 'Qui'
             break
-        case 6:
+        case 5:
             semana = 'Sex'
             break
-        case 7:
+        case 6:
             semana = 'Sab'
     }
     agora.textContent = semana + " " + dia + "/" + mes + "/" + ano
